@@ -189,11 +189,12 @@ h3 {
 }
 
 h1 {
-  max-width: 8ch;
-  font-size: clamp(3rem, 5.8vw, 4.4rem);
+  max-width: 9.2ch;
+  font-size: clamp(3.15rem, 5.4vw, 4.55rem);
   margin-bottom: 14px;
-  letter-spacing: -0.03em;
-  line-height: 1;
+  letter-spacing: -0.035em;
+  line-height: 0.96;
+  text-wrap: balance;
 }
 
 h2 {
@@ -560,7 +561,8 @@ h3 {
 
   h1 {
     max-width: none;
-    font-size: clamp(2.5rem, 9vw, 3.7rem);
+    font-size: clamp(2.7rem, 8vw, 3.85rem);
+    line-height: 0.98;
   }
 
   .hero-visual {
