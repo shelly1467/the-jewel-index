@@ -481,6 +481,14 @@ h3 {
   color: #54483c;
 }
 
+.associate-disclosure {
+  padding: 12px 14px;
+  border: 1px solid rgba(154, 116, 65, 0.18);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.56);
+  font-weight: 600;
+}
+
 .note-pills,
 .trust-links {
   display: flex;
