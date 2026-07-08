@@ -66,15 +66,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 34px 18px 26px;
-  margin: 0 -18px 18px;
+  gap: 18px;
+  padding: 16px 18px 14px;
+  margin: 0 -18px 10px;
+  min-height: 0;
   border-bottom: 1px solid rgba(188, 160, 117, 0.18);
   background: linear-gradient(180deg, rgba(255, 253, 249, 0.98), rgba(249, 243, 235, 0.94));
 }
 
 .brand-lockup {
-  max-width: 470px;
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  max-width: 220px;
 }
 
 .brand {
@@ -92,34 +96,10 @@ img {
 }
 
 .brand-logo {
-  width: clamp(180px, 22vw, 240px);
-  max-width: 240px;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.brand-name,
-.footer-brand {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-}
-
-.brand-tagline {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.brand-note {
-  max-width: 320px;
-  margin: 10px 0 0;
-  color: #6d5b4b;
-  line-height: 1.6;
-  font-size: 0.88rem;
+  width: clamp(180px, 18vw, 220px);
+  max-width: 220px;
+  max-height: 72px;
+  object-fit: contain;
 }
 
 .site-nav {
@@ -127,16 +107,17 @@ img {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 14px;
-  padding: 12px 4px;
+  padding: 0;
   background: transparent;
   flex: 1 1 auto;
+  align-items: center;
 }
 
 .site-nav a {
   position: relative;
   color: #4a392d;
   font-size: 0.88rem;
-  padding: 8px 12px 10px;
+  padding: 8px 10px 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -549,6 +530,12 @@ h3 {
     align-items: flex-start;
   }
 
+  .site-header {
+    gap: 12px;
+    padding: 14px 12px 12px;
+    margin: 0 -12px 10px;
+  }
+
   .hero,
   .editorial-feature,
   .collection-grid,
@@ -558,7 +545,9 @@ h3 {
 
   .site-nav {
     justify-content: flex-start;
-    padding: 4px 0 0;
+    padding: 0;
+    width: 100%;
+    gap: 10px;
   }
 
   .hero {
@@ -603,14 +592,10 @@ h3 {
     align-items: flex-start;
   }
 
-  .brand-name,
-  .footer-brand {
-    font-size: 1.6rem;
-  }
-
   .brand-logo {
-    width: clamp(170px, 52vw, 220px);
-    max-width: 220px;
+    width: clamp(170px, 48vw, 200px);
+    max-width: 200px;
+    max-height: 64px;
   }
 
   .top-ribbon {
