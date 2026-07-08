@@ -81,17 +81,19 @@ img {
   display: inline-flex;
   align-items: center;
   max-width: 100%;
+  flex: 0 0 auto;
 }
 
 .brand-logo,
 .footer-logo {
   display: block;
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
 .brand-logo {
-  max-width: 420px;
+  width: clamp(180px, 22vw, 240px);
+  max-width: 240px;
 }
 
 .brand-text {
@@ -113,10 +115,11 @@ img {
 }
 
 .brand-note {
-  margin: 14px 0 0;
+  max-width: 320px;
+  margin: 10px 0 0;
   color: #6d5b4b;
-  line-height: 1.7;
-  font-size: 0.95rem;
+  line-height: 1.6;
+  font-size: 0.88rem;
 }
 
 .site-nav {
@@ -126,6 +129,7 @@ img {
   gap: 14px;
   padding: 12px 4px;
   background: transparent;
+  flex: 1 1 auto;
 }
 
 .site-nav a {
@@ -514,7 +518,8 @@ h3 {
 }
 
 .footer-logo {
-  max-width: 240px;
+  width: clamp(140px, 16vw, 180px);
+  max-width: 180px;
 }
 
 @media (max-width: 1080px) {
@@ -604,7 +609,8 @@ h3 {
   }
 
   .brand-logo {
-    max-width: 320px;
+    width: clamp(170px, 52vw, 220px);
+    max-width: 220px;
   }
 
   .top-ribbon {
