@@ -667,6 +667,14 @@ h3 {
   max-width: 14ch;
 }
 
+.ring-guide-page .guide-panel h2 {
+  max-width: 12ch;
+  font-size: clamp(2.625rem, 3.8vw, 3.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
 @media (max-width: 1080px) {
   .collection-grid,
   .steps-grid,
