@@ -671,6 +671,20 @@ h3 {
   max-width: 18ch;
 }
 
+.necklace-guide-page .guide-panel h2 {
+  max-width: 12ch;
+  font-size: clamp(2.625rem, 3.8vw, 3.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.necklace-guide-page .guide-buy-panel h2 {
+  max-width: 16ch;
+  font-size: clamp(2.25rem, 3vw, 3rem);
+  white-space: nowrap;
+}
+
 .ring-guide-page .guide-panel h2 {
   max-width: 12ch;
   font-size: clamp(2.625rem, 3.8vw, 3.5rem);
@@ -760,6 +774,11 @@ h3 {
   }
 
   .ring-guide-page .guide-buy-panel h2 {
+    white-space: normal;
+    max-width: 12ch;
+  }
+
+  .necklace-guide-page .guide-buy-panel h2 {
     white-space: normal;
     max-width: 12ch;
   }
