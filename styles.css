@@ -620,6 +620,10 @@ h3 {
   gap: 20px;
 }
 
+.guide-card-grid-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .guide-card {
   padding: 24px;
   background: rgba(255, 253, 249, 0.94);
@@ -628,6 +632,11 @@ h3 {
 
 .guide-card h3 {
   font-size: 1.8rem;
+}
+
+.jewelry-guides-page .guide-hero-copy h1,
+.jewelry-guides-page .guide-panel h2 {
+  max-width: 16ch;
 }
 
 .guide-columns {
