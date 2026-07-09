@@ -523,19 +523,166 @@ h3 {
   max-width: 180px;
 }
 
+.guide-page {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.guide-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, rgba(255, 253, 249, 0.98), rgba(243, 234, 223, 0.94));
+  box-shadow: var(--shadow);
+}
+
+.guide-hero-copy,
+.guide-panel {
+  background: rgba(255, 253, 249, 0.72);
+}
+
+.guide-hero-copy,
+.guide-panel,
+.guide-card {
+  border: 1px solid rgba(188, 160, 117, 0.16);
+  border-radius: var(--radius-lg);
+}
+
+.guide-hero-copy {
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guide-hero-copy h1,
+.guide-panel h2 {
+  max-width: 12ch;
+  font-size: clamp(2.7rem, 4.6vw, 4rem);
+  line-height: 0.98;
+}
+
+.guide-intro,
+.guide-panel p,
+.guide-list li,
+.guide-card p {
+  color: #5c4d40;
+  line-height: 1.72;
+  font-size: 0.98rem;
+}
+
+.guide-hero-visual {
+  min-height: 420px;
+  border-radius: var(--radius-lg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 18px 34px rgba(109, 81, 43, 0.1);
+}
+
+.rings-guide-visual {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 244, 0.26), rgba(255, 242, 225, 0.14)),
+    url("https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=1400&q=80");
+}
+
+.necklaces-guide-visual {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 244, 0.26), rgba(255, 242, 225, 0.14)),
+    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1400&q=80");
+}
+
+.bracelets-guide-visual {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 244, 0.26), rgba(255, 242, 225, 0.14)),
+    url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1400&q=80");
+}
+
+.earrings-guide-visual {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 244, 0.26), rgba(255, 242, 225, 0.14)),
+    url("https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=1400&q=80");
+}
+
+.guide-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.guide-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.guide-card {
+  padding: 24px;
+  background: rgba(255, 253, 249, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.guide-card h3 {
+  font-size: 1.8rem;
+}
+
+.guide-columns {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 22px;
+}
+
+.guide-panel {
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.guide-panel-soft {
+  background: linear-gradient(180deg, rgba(255, 249, 241, 0.96), rgba(243, 234, 223, 0.96));
+}
+
+.guide-list {
+  margin: 18px 0 0;
+  padding-left: 20px;
+}
+
+.guide-list li + li {
+  margin-top: 12px;
+}
+
+.guide-note {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border: 1px solid rgba(154, 116, 65, 0.18);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.56);
+  font-weight: 600;
+}
+
 @media (max-width: 1080px) {
   .collection-grid,
-  .steps-grid {
+  .steps-grid,
+  .guide-card-grid {
     grid-template-columns: 1fr 1fr;
   }
 
   .hero,
-  .editorial-feature {
+  .editorial-feature,
+  .guide-hero,
+  .guide-columns {
     grid-template-columns: 1fr;
   }
 
   .hero-visual {
     min-height: 400px;
+  }
+
+  .guide-hero-visual {
+    min-height: 320px;
   }
 }
 
@@ -559,7 +706,8 @@ h3 {
   .hero,
   .editorial-feature,
   .collection-grid,
-  .steps-grid {
+  .steps-grid,
+  .guide-card-grid {
     grid-template-columns: 1fr;
   }
 
@@ -614,8 +762,20 @@ h3 {
 
   .feature-panel,
   .feature-notes,
-  .trust-card {
+  .trust-card,
+  .guide-hero,
+  .guide-panel,
+  .guide-card,
+  .guide-hero-copy {
     padding: 26px;
+  }
+
+  .guide-page {
+    gap: 28px;
+  }
+
+  .guide-hero-visual {
+    min-height: 260px;
   }
 }
 
