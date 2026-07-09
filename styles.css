@@ -675,6 +675,12 @@ h3 {
   text-wrap: balance;
 }
 
+.ring-guide-page .guide-buy-panel h2 {
+  max-width: 16ch;
+  font-size: clamp(2.25rem, 3vw, 3rem);
+  white-space: nowrap;
+}
+
 @media (max-width: 1080px) {
   .collection-grid,
   .steps-grid,
@@ -747,6 +753,11 @@ h3 {
 
   .hero-title .line {
     white-space: normal;
+  }
+
+  .ring-guide-page .guide-buy-panel h2 {
+    white-space: normal;
+    max-width: 12ch;
   }
 
   .hero-visual {
