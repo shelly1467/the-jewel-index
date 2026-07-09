@@ -264,6 +264,12 @@ h3 {
   background: rgba(255, 255, 255, 0.72);
 }
 
+.button-disabled {
+  opacity: 0.78;
+  cursor: default;
+  pointer-events: none;
+}
+
 .button-dark {
   background: #17120f;
   color: #fff9f1;
