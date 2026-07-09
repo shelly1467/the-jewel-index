@@ -640,6 +640,88 @@ h3 {
   font-size: 1.8rem;
 }
 
+.guide-product-visual {
+  position: relative;
+  min-height: 180px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+  border: 1px solid rgba(188, 160, 117, 0.14);
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.9), transparent 52%),
+    linear-gradient(180deg, rgba(255, 251, 245, 0.98), rgba(242, 232, 220, 0.92));
+  overflow: hidden;
+}
+
+.ring-visual::before,
+.ring-visual::after {
+  content: "";
+  position: absolute;
+}
+
+.ring-visual::before {
+  left: 50%;
+  top: 50%;
+  width: 84px;
+  height: 84px;
+  border: 10px solid rgba(200, 164, 106, 0.95);
+  border-radius: 50%;
+  transform: translate(-50%, -32%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 244, 226, 0.7),
+    0 12px 24px rgba(120, 89, 49, 0.12);
+}
+
+.ring-visual::after {
+  left: 50%;
+  top: 28px;
+  transform: translateX(-50%);
+}
+
+.ring-visual-band::after {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 42%, #c8a46a 100%);
+  box-shadow: 0 0 0 4px rgba(255, 247, 232, 0.72);
+}
+
+.ring-visual-solitaire::after {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffefb 0%, #f7efd7 34%, #d7c09a 72%, #c8a46a 100%);
+  box-shadow:
+    0 0 0 5px rgba(255, 247, 232, 0.74),
+    0 0 18px rgba(236, 215, 178, 0.8);
+}
+
+.ring-visual-halo::after {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(255, 252, 245, 0.98) 0 28%, rgba(240, 222, 187, 0.98) 29% 50%, rgba(200, 164, 106, 0.96) 51% 100%);
+  box-shadow: 0 0 0 4px rgba(255, 247, 232, 0.74);
+}
+
+.ring-visual-stacking::before {
+  width: 94px;
+  height: 94px;
+  border-width: 7px;
+  transform: translate(-50%, -20%);
+}
+
+.ring-visual-stacking::after {
+  width: 94px;
+  height: 94px;
+  border: 7px solid rgba(214, 186, 143, 0.95);
+  border-radius: 50%;
+  top: 40px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 244, 226, 0.7),
+    0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
 .jewelry-guides-page .guide-hero-copy h1,
 .jewelry-guides-page .guide-panel h2 {
   max-width: 16ch;
