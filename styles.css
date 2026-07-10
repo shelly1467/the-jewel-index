@@ -707,6 +707,43 @@ h3 {
     url("assets/rings-example-stacking.png");
 }
 
+.necklace-photo {
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1px rgba(255, 248, 239, 0.16);
+}
+
+.necklace-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 251, 245, 0.1), rgba(31, 21, 16, 0.12));
+}
+
+.necklace-photo-pendant {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/necklaces-example-pendant.png");
+}
+
+.necklace-photo-layered {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/necklaces-example-layered.png");
+}
+
+.necklace-photo-statement {
+  background-image:
+    linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
+    url("assets/necklaces-example-statement.png");
+}
+
+.necklace-photo-gift {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/necklaces-example-gift.png");
+}
+
 .style-photo {
   background-position: center;
   background-size: cover;
