@@ -1280,6 +1280,17 @@ h3 {
   font-size: 1.6rem;
 }
 
+.terms-page .guide-hero-copy h1,
+.terms-page .guide-panel h2 {
+  max-width: 15ch;
+  font-size: clamp(2.15rem, 3vw, 3rem);
+  line-height: 1.04;
+}
+
+.terms-page .guide-card h3 {
+  font-size: 1.6rem;
+}
+
 .ring-guide-page .guide-hero-copy h1 {
   max-width: 14ch;
 }
