@@ -1238,6 +1238,21 @@ h3 {
   margin-top: -6px;
 }
 
+.about-page .guide-hero-copy h1,
+.about-page .guide-panel h2 {
+  max-width: 16ch;
+  font-size: clamp(2.1rem, 3vw, 3.1rem);
+  line-height: 1.04;
+}
+
+.about-page .guide-note {
+  margin-top: 14px;
+  padding: 10px 12px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.44);
+}
+
 .ring-guide-page .guide-hero-copy h1 {
   max-width: 14ch;
 }
