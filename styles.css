@@ -1253,6 +1253,12 @@ h3 {
   background: rgba(255, 255, 255, 0.44);
 }
 
+.disclosure-page .guide-panel h2 {
+  max-width: 18ch;
+  font-size: clamp(2rem, 2.8vw, 2.8rem);
+  line-height: 1.06;
+}
+
 .ring-guide-page .guide-hero-copy h1 {
   max-width: 14ch;
 }
