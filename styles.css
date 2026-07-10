@@ -1059,6 +1059,18 @@ h3 {
   font-weight: 600;
 }
 
+.guide-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.guide-action-row .button {
+  min-height: 46px;
+  padding: 0 18px;
+}
+
 .ring-guide-page .guide-hero-copy h1 {
   max-width: 14ch;
 }
