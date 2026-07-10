@@ -889,6 +889,138 @@ h3 {
   box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
 }
 
+.gift-visual::before,
+.gift-visual::after,
+.style-visual::before,
+.style-visual::after {
+  content: "";
+  position: absolute;
+}
+
+.gift-visual::before {
+  left: 50%;
+  top: 46px;
+  width: 92px;
+  height: 92px;
+  border: 7px solid rgba(200, 164, 106, 0.94);
+  border-radius: 18px;
+  transform: translateX(-50%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 244, 226, 0.7),
+    0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.gift-visual::after {
+  left: 50%;
+  top: 34px;
+  width: 18px;
+  height: 120px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(214, 186, 143, 0.98), rgba(200, 164, 106, 0.98));
+  transform: translateX(-50%);
+}
+
+.gift-visual-birthday::before {
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 244, 226, 0.7),
+    0 12px 24px rgba(120, 89, 49, 0.1),
+    -30px -18px 0 -24px rgba(236, 215, 178, 0.9),
+    30px -18px 0 -24px rgba(236, 215, 178, 0.9);
+}
+
+.gift-visual-anniversary::after {
+  width: 56px;
+  height: 46px;
+  top: 68px;
+  border-radius: 50% 50% 0 0;
+  background: radial-gradient(circle at 50% 35%, rgba(255, 247, 232, 0.95) 0%, rgba(214, 186, 143, 0.98) 55%, rgba(200, 164, 106, 0.98) 100%);
+  clip-path: polygon(50% 100%, 0 42%, 18% 0, 50% 22%, 82% 0, 100% 42%);
+}
+
+.gift-visual-everyday::after {
+  width: 56px;
+  height: 10px;
+  top: 86px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(214, 186, 143, 0.98), rgba(200, 164, 106, 0.98));
+}
+
+.gift-visual-occasion::after {
+  width: 34px;
+  height: 34px;
+  top: 72px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 35%, #c8a46a 100%);
+  box-shadow: 0 0 0 5px rgba(255, 247, 232, 0.72);
+}
+
+.style-visual::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.style-visual-minimal::before {
+  top: 58px;
+  width: 88px;
+  height: 88px;
+  border: 8px solid rgba(200, 164, 106, 0.94);
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 244, 226, 0.7),
+    0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.style-visual-layered::before {
+  top: 46px;
+  width: 122px;
+  height: 94px;
+  border: 7px solid rgba(200, 164, 106, 0.94);
+  border-top: 0;
+  border-radius: 0 0 80px 80px;
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.style-visual-layered::after {
+  left: 50%;
+  top: 70px;
+  width: 86px;
+  height: 68px;
+  border: 6px solid rgba(214, 186, 143, 0.92);
+  border-top: 0;
+  border-radius: 0 0 62px 62px;
+  transform: translateX(-50%);
+}
+
+.style-visual-evening::before,
+.style-visual-evening::after {
+  top: 52px;
+  width: 36px;
+  height: 54px;
+  border-radius: 50% 50% 58% 58%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 35%, #c8a46a 100%);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.style-visual-evening::before {
+  left: calc(50% - 28px);
+}
+
+.style-visual-evening::after {
+  left: calc(50% + 28px);
+}
+
+.style-visual-soft::before {
+  top: 64px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffefb 0%, #f7efd7 34%, #d7c09a 72%, #c8a46a 100%);
+  box-shadow:
+    -34px 14px 0 -2px rgba(236, 215, 178, 0.95),
+    34px 14px 0 -2px rgba(236, 215, 178, 0.95),
+    0 0 0 5px rgba(255, 247, 232, 0.72);
+}
+
 .jewelry-guides-page .guide-hero-copy h1,
 .jewelry-guides-page .guide-panel h2 {
   max-width: 16ch;
