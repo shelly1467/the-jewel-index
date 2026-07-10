@@ -1202,6 +1202,42 @@ h3 {
   padding: 0 18px;
 }
 
+.style-notes-page .guide-hero {
+  gap: 18px;
+  padding: 20px;
+}
+
+.style-notes-page .guide-hero-copy,
+.style-notes-page .guide-panel {
+  padding: 24px;
+}
+
+.style-notes-page .guide-hero-copy h1,
+.style-notes-page .guide-panel h2 {
+  max-width: 16ch;
+  font-size: clamp(2.1rem, 3.2vw, 3.15rem);
+  line-height: 1.02;
+}
+
+.style-notes-page .guide-intro,
+.style-notes-page .guide-panel p {
+  line-height: 1.62;
+}
+
+.style-notes-page .guide-action-row {
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.style-notes-page .guide-action-row .button {
+  min-height: 42px;
+  padding: 0 16px;
+}
+
+.style-notes-disclosure {
+  margin-top: -6px;
+}
+
 .ring-guide-page .guide-hero-copy h1 {
   max-width: 14ch;
 }
