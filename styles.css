@@ -744,6 +744,43 @@ h3 {
     url("assets/necklaces-example-gift.png");
 }
 
+.bracelet-photo {
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1px rgba(255, 248, 239, 0.16);
+}
+
+.bracelet-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 251, 245, 0.1), rgba(31, 21, 16, 0.12));
+}
+
+.bracelet-photo-tennis {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/bracelets-example-tennis.png");
+}
+
+.bracelet-photo-chain {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/bracelets-example-chain.png");
+}
+
+.bracelet-photo-cuff {
+  background-image:
+    linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
+    url("assets/bracelets-example-cuff.png");
+}
+
+.bracelet-photo-charm {
+  background-image:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
+    url("assets/bracelets-example-charm.png");
+}
+
 .style-photo {
   background-position: center;
   background-size: cover;
