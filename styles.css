@@ -722,6 +722,173 @@ h3 {
     0 12px 24px rgba(120, 89, 49, 0.1);
 }
 
+.necklace-visual::before,
+.necklace-visual::after,
+.bracelet-visual::before,
+.bracelet-visual::after,
+.earring-visual::before,
+.earring-visual::after {
+  content: "";
+  position: absolute;
+}
+
+.necklace-visual::before {
+  left: 50%;
+  top: 28px;
+  width: 120px;
+  height: 88px;
+  border: 7px solid rgba(200, 164, 106, 0.92);
+  border-top: 0;
+  border-radius: 0 0 80px 80px;
+  transform: translateX(-50%);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.12);
+}
+
+.necklace-visual::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.necklace-visual-pendant::after {
+  top: 92px;
+  width: 22px;
+  height: 28px;
+  border-radius: 50% 50% 60% 60%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 45%, #c8a46a 100%);
+}
+
+.necklace-visual-layered::before {
+  width: 132px;
+  height: 92px;
+}
+
+.necklace-visual-layered::after {
+  top: 52px;
+  width: 96px;
+  height: 68px;
+  border: 6px solid rgba(214, 186, 143, 0.92);
+  border-top: 0;
+  border-radius: 0 0 64px 64px;
+}
+
+.necklace-visual-statement::after {
+  top: 82px;
+  width: 70px;
+  height: 26px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(200, 164, 106, 0.98), rgba(236, 215, 178, 0.95), rgba(200, 164, 106, 0.98));
+  box-shadow: 0 0 0 4px rgba(255, 247, 232, 0.6);
+}
+
+.necklace-visual-gift::after {
+  top: 88px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffefb 0%, #f7efd7 34%, #d7c09a 72%, #c8a46a 100%);
+  box-shadow: 0 0 0 5px rgba(255, 247, 232, 0.72);
+}
+
+.bracelet-visual::before {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -20%);
+  border-radius: 999px;
+}
+
+.bracelet-visual-tennis::before {
+  width: 120px;
+  height: 32px;
+  border: 6px solid rgba(200, 164, 106, 0.94);
+  box-shadow:
+    inset 0 0 0 4px rgba(255, 247, 232, 0.72),
+    0 12px 24px rgba(120, 89, 49, 0.12);
+}
+
+.bracelet-visual-chain::before {
+  width: 124px;
+  height: 34px;
+  border: 7px dashed rgba(200, 164, 106, 0.94);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.bracelet-visual-cuff::before {
+  width: 120px;
+  height: 70px;
+  border: 9px solid rgba(200, 164, 106, 0.94);
+  border-top-color: transparent;
+  border-left-color: rgba(214, 186, 143, 0.94);
+  border-right-color: rgba(214, 186, 143, 0.94);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.bracelet-visual-charm::before {
+  width: 120px;
+  height: 32px;
+  border: 6px solid rgba(200, 164, 106, 0.94);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
+.bracelet-visual-charm::after {
+  left: 50%;
+  top: 96px;
+  width: 18px;
+  height: 24px;
+  border-radius: 50% 50% 60% 60%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 45%, #c8a46a 100%);
+  transform: translateX(-50%);
+}
+
+.earring-visual::before,
+.earring-visual::after {
+  top: 54px;
+}
+
+.earring-visual-stud::before,
+.earring-visual-stud::after {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fffefb 0%, #f7efd7 34%, #d7c09a 72%, #c8a46a 100%);
+  box-shadow: 0 0 0 5px rgba(255, 247, 232, 0.72);
+}
+
+.earring-visual::before {
+  left: calc(50% - 26px);
+}
+
+.earring-visual::after {
+  left: calc(50% + 26px);
+}
+
+.earring-visual-hoop::before,
+.earring-visual-hoop::after {
+  width: 34px;
+  height: 48px;
+  border: 7px solid rgba(200, 164, 106, 0.94);
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.08);
+}
+
+.earring-visual-drop::before,
+.earring-visual-drop::after {
+  width: 10px;
+  height: 54px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(214, 186, 143, 0.95), rgba(200, 164, 106, 0.95));
+  box-shadow: 0 0 0 4px rgba(255, 247, 232, 0.4);
+}
+
+.earring-visual-statement::before,
+.earring-visual-statement::after {
+  width: 40px;
+  height: 56px;
+  border-radius: 50% 50% 58% 58%;
+  background: radial-gradient(circle at 35% 35%, #fffef8 0%, #eed9b3 35%, #c8a46a 100%);
+  box-shadow: 0 12px 24px rgba(120, 89, 49, 0.1);
+}
+
 .jewelry-guides-page .guide-hero-copy h1,
 .jewelry-guides-page .guide-panel h2 {
   max-width: 16ch;
