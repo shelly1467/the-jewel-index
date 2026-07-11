@@ -634,6 +634,18 @@ h3 {
   gap: 24px;
 }
 
+.guide-quick-links {
+  gap: 0;
+}
+
+.guide-quick-links .guide-panel {
+  padding: 22px 24px;
+}
+
+.guide-quick-links .note-pills {
+  margin: 0;
+}
+
 .guide-card-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
