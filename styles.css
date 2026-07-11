@@ -299,6 +299,11 @@ h3 {
   background: linear-gradient(180deg, rgba(255, 251, 245, 0.96), rgba(246, 235, 220, 0.62));
 }
 
+.hero-image-stage {
+  position: relative;
+  min-height: inherit;
+}
+
 .hero-image {
   position: absolute;
   border-radius: 18px;
@@ -1653,25 +1658,32 @@ h3 {
 
   .hero-visual {
     width: 100%;
-    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .hero-image-stage {
+    min-height: 320px;
   }
 
   .hero-image-detail {
     width: 132px;
     height: 156px;
-    left: 16px;
-    bottom: 16px;
+    left: 14px;
+    bottom: 14px;
   }
 
   .hero-image-main {
-    inset: 16px 16px 16px 16px;
+    inset: 0;
   }
 
   .hero-plaque {
-    right: 18px;
-    bottom: 18px;
-    width: min(220px, 62%);
-    padding: 16px;
+    position: static;
+    width: 100%;
+    padding: 15px 16px;
   }
 
   .feature-panel,
