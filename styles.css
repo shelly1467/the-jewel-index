@@ -316,7 +316,7 @@ h3 {
   inset: 22px 22px 22px 18px;
   background-image:
     linear-gradient(180deg, rgba(255, 250, 244, 0.28), rgba(255, 242, 225, 0.12)),
-    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=72");
 }
 
 .hero-image-detail {
@@ -327,7 +327,7 @@ h3 {
   border: 6px solid rgba(255, 248, 240, 0.96);
   background-image:
     linear-gradient(180deg, rgba(255, 248, 239, 0.2), rgba(255, 239, 223, 0.1)),
-    url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80");
+    url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=640&q=72");
 }
 
 .hero-plaque {
@@ -395,25 +395,25 @@ h3 {
 .everyday-elegance {
   background-image:
     linear-gradient(180deg, rgba(246, 238, 228, 0.06), rgba(28, 19, 14, 0.24)),
-    url("https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=800&q=72");
 }
 
 .elevated-gifts {
   background-image:
     linear-gradient(180deg, rgba(246, 238, 228, 0.06), rgba(28, 19, 14, 0.24)),
-    url("https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=72");
 }
 
 .signature-finds {
   background-image:
     linear-gradient(180deg, rgba(246, 238, 228, 0.06), rgba(28, 19, 14, 0.24)),
-    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=72");
 }
 
 .luxury-inspiration {
   background-image:
     linear-gradient(180deg, rgba(246, 238, 228, 0.06), rgba(28, 19, 14, 0.24)),
-    url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=72");
 }
 
 .collection-body,
@@ -468,7 +468,7 @@ h3 {
   justify-content: flex-end;
   background:
     linear-gradient(180deg, rgba(253, 248, 241, 0.06), rgba(20, 14, 10, 0.58)),
-    url("https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=80") center/cover;
+    url("https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=72") center/cover;
 }
 
 .feature-panel h2,
@@ -549,6 +549,16 @@ h3 {
   gap: 34px;
 }
 
+.collections,
+.editorial-feature,
+.how-it-works,
+.trust-section,
+.guide-section,
+.site-footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 720px;
+}
+
 .guide-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -607,25 +617,25 @@ h3 {
 .rings-guide-visual {
   background-image:
     linear-gradient(180deg, rgba(255, 250, 244, 0.26), rgba(255, 242, 225, 0.14)),
-    url("https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1400&q=80");
+    url("https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1100&q=72");
 }
 
 .necklaces-guide-visual {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.08), rgba(255, 244, 230, 0.04)),
-    url("assets/necklaces-guide-hero.png");
+    url("assets/necklaces-guide-hero.webp");
 }
 
 .bracelets-guide-visual {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.08), rgba(255, 244, 230, 0.04)),
-    url("assets/bracelets-guide-hero.png");
+    url("assets/bracelets-guide-hero.webp");
 }
 
 .earrings-guide-visual {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.08), rgba(255, 244, 230, 0.04)),
-    url("assets/earrings-guide-hero.png");
+    url("assets/earrings-guide-hero.webp");
 }
 
 .guide-section {
@@ -712,25 +722,25 @@ h3 {
 .ring-photo-band {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/rings-example-band.png");
+    url("assets/rings-example-band.webp");
 }
 
 .ring-photo-solitaire {
   background-image:
     linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(247, 236, 223, 0.14)),
-    url("assets/rings-example-solitaire.png");
+    url("assets/rings-example-solitaire.webp");
 }
 
 .ring-photo-halo {
   background-image:
     linear-gradient(180deg, rgba(255, 250, 244, 0.05), rgba(42, 31, 22, 0.18)),
-    url("assets/rings-example-halo.png");
+    url("assets/rings-example-halo.webp");
 }
 
 .ring-photo-stacking {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/rings-example-stacking.png");
+    url("assets/rings-example-stacking.webp");
 }
 
 .necklace-photo {
@@ -749,25 +759,25 @@ h3 {
 .necklace-photo-pendant {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/necklaces-example-pendant.png");
+    url("assets/necklaces-example-pendant.webp");
 }
 
 .necklace-photo-layered {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/necklaces-example-layered.png");
+    url("assets/necklaces-example-layered.webp");
 }
 
 .necklace-photo-statement {
   background-image:
     linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
-    url("assets/necklaces-example-statement.png");
+    url("assets/necklaces-example-statement.webp");
 }
 
 .necklace-photo-gift {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/necklaces-example-gift.png");
+    url("assets/necklaces-example-gift.webp");
 }
 
 .bracelet-photo {
@@ -786,25 +796,25 @@ h3 {
 .bracelet-photo-tennis {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/bracelets-example-tennis.png");
+    url("assets/bracelets-example-tennis.webp");
 }
 
 .bracelet-photo-chain {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/bracelets-example-chain.png");
+    url("assets/bracelets-example-chain.webp");
 }
 
 .bracelet-photo-cuff {
   background-image:
     linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
-    url("assets/bracelets-example-cuff.png");
+    url("assets/bracelets-example-cuff.webp");
 }
 
 .bracelet-photo-charm {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/bracelets-example-charm.png");
+    url("assets/bracelets-example-charm.webp");
 }
 
 .earring-photo {
@@ -823,25 +833,25 @@ h3 {
 .earring-photo-stud {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/earrings-example-stud.png");
+    url("assets/earrings-example-stud.webp");
 }
 
 .earring-photo-hoop {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/earrings-example-hoop.png");
+    url("assets/earrings-example-hoop.webp");
 }
 
 .earring-photo-drop {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/earrings-example-drop.png");
+    url("assets/earrings-example-drop.webp");
 }
 
 .earring-photo-statement {
   background-image:
     linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
-    url("assets/earrings-example-statement.png");
+    url("assets/earrings-example-statement.webp");
 }
 
 .gift-photo {
@@ -860,25 +870,25 @@ h3 {
 .gift-photo-birthday {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/gift-example-birthday.png");
+    url("assets/gift-example-birthday.webp");
 }
 
 .gift-photo-anniversary {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/gift-example-anniversary.png");
+    url("assets/gift-example-anniversary.webp");
 }
 
 .gift-photo-everyday {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("assets/gift-example-everyday.png");
+    url("assets/gift-example-everyday.webp");
 }
 
 .gift-photo-occasion {
   background-image:
     linear-gradient(180deg, rgba(255, 251, 245, 0.05), rgba(42, 31, 22, 0.16)),
-    url("assets/gift-example-occasion.png");
+    url("assets/gift-example-occasion.webp");
 }
 
 .style-photo {
@@ -897,61 +907,61 @@ h3 {
 .style-photo-everyday {
   background-image:
     linear-gradient(180deg, rgba(255, 250, 244, 0.06), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-minimal {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.1)),
-    url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-layered {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-signature {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.04), rgba(44, 31, 23, 0.2)),
-    url("https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-evening {
   background-image:
     linear-gradient(180deg, rgba(255, 249, 241, 0.05), rgba(27, 19, 14, 0.28)),
-    url("https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-soft {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-future-minimal {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-future-layered {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-future-evening {
   background-image:
     linear-gradient(180deg, rgba(255, 249, 241, 0.05), rgba(27, 19, 14, 0.28)),
-    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=72");
 }
 
 .style-photo-future-soft {
   background-image:
     linear-gradient(180deg, rgba(255, 252, 246, 0.05), rgba(247, 236, 223, 0.12)),
-    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80");
+    url("https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=72");
 }
 
 .ring-visual::before,
